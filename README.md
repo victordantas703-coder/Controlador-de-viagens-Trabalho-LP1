@@ -45,7 +45,7 @@ Vale resaltar que
 - `tipo` deve ser apenas `T` para trajetos ou transportes __terrestres__ e `A` para __aquáticos__;
 - Qualquer argumento diferente do primeiro que não esteja em aspas é um número inteiro, ex.: `distância`, `velocidade`, etc.
 
-Os comando possíveis são:
+Os comandos possíveis são:
 
 - __Cadastro de Cidade__ : Use `cadastrar_cidade "nome_cidade"` para cadastrar uma cidade no sistema.
 - __Cadastro de Trajeto__ : Use `cadastrar_trajeto "nome_cidade_origem" "nome_cidade_destino" tipo distância` para cadastrar um trajeto de uma cidade à outra de um tipo e de uma certa distância;
