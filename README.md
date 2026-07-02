@@ -25,13 +25,14 @@ git clone https://github.com/victordantas703-coder/Controlador-de-viagens-Trabal
 
 ou baixe o arquivo compactado do projeto [por aqui](https://github.com/victordantas703-coder/Controlador-de-viagens-Trabalho-LP1/archive/refs/heads/main.zip) e extraia a pasta contida nele.
 
-__2.__ Acesse a pasta clonada ou baixada pelo terminal e depois execute
+__2.__  Execute
 
 ```shell
+cd .\Controlador-de-viagens-Trabalho-LP1\
 g++ .\src\classes\classeCidade.cpp .\src\classes\classeTrajeto.cpp .\src\classes\classeTransporte.cpp .\src\classes\classePassageiro.cpp .\src\classes\classeViagem.cpp .\src\classes\classeControladorDeTransito.cpp .\src\main.cpp -o sistema
 ```
 
-para compilar o projeto.
+para abrir a pasta do projeto e compilá-lo.
 
 ## Uso do Controlador de Viagens
 
