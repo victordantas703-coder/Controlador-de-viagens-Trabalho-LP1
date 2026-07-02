@@ -173,7 +173,7 @@ void ControladorDeTransito::cadastrarCidade(string nome) {
 
         cout << ">- Novo arquivo para cadastro de cidades criado." << endl;
 
-        arquivoCidades << nome << endl;  // Escreve o nome da cidade no arquivo
+        arquivoCidades << nome << '|' << 0 << endl;  // Escreve o nome da cidade e o total de visitas como 0 no arquivo
 
         cout << ">- A cidade " << nome << " foi cadastrada com sucesso." << endl;
 
